@@ -1,0 +1,73 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                   Gaussian Channel MT4           |
+//|                      forexroboteasy.com - Forex Robot Easy Team  |
+//|                                             Terms of Reference   |
+//|------------------------------------------------------------------+
+//|1. Develop an indicator for MetaTrader 4 (MT4) based on the        |
+//|   Gaussian Channel algorithm using Ehlers Gaussian Filter        |
+//|   methods.                                                        |
+//|2. The indicator should accurately define trends in the market     |
+//|   and provide insights for traders.                               |
+//|3. The indicator should analyze trends and identify potential      |
+//|   market reversals.                                               |
+//|4. The indicator should be compatible with the cryptocurrency     |
+//|   market.                                                         |
+//|5. The indicator should save traders time by offering a            |
+//|   comprehensive overview of the current trend.                     |
+//|6. Traders should be able to easily identify the prevailing trend  |
+//|   with a quick glance at the indicator.                            |
+//|7. The indicator should assist in making informed decisions for    |
+//|   trading strategies.                                             |
+//|8. Traders should be able to make precise entries and take full    |
+//|   or partial profits with ease.                                   |
+//|9. The indicator should provide clear trend analysis for traders   |
+//|   to base their decisions on.                                     |
+//|10. The indicator should be highly customizable to accommodate     |
+//|    individual trader preferences.                                 |
+//|11. The code should only include necessary trading functions.      |
+//|12. Ensure the code adheres to best practices and is well-         |
+//|    structured.                                                    |
+//|13. The code should be efficient and optimized for performance.     |
+//|14. The code should be fully compatible with MT4 and any           |
+//|    necessary libraries or dependencies.                           |
+//|15. The code should be properly documented to facilitate future    |
+//|    maintenance and updates.                                       |
+//|16. The code should be delivered in a timely manner, adhering to   |
+//|    any agreed-upon deadlines.                                     |
+//|17. The terms of reference should not exceed 1500-2000 characters  |
+//|    in length.                                                     |
+//+------------------------------------------------------------------+
+
+// Indicator initialization function
+int OnInit()
+{
+	// Add necessary initialization code here
+	
+	return(INIT_SUCCEEDED);
+}
+
+// Indicator deinitialization function
+void OnDeinit(const int reason)
+{
+	// Add necessary deinitialization code here
+	
+	return;
+}
+
+// Indicator calculation function
+int OnCalculate(const int rates_total,
+               const int prev_calculated,
+               const datetime& time[],
+               const double& open[],
+               const double& high[],
+               const double& low[],
+               const double& close[],
+               const long& tick_volume[],
+               const long& volume[],
+               const int& spread[])
+{
+	// Add necessary calculation code here
+	
+	return(rates_total);
+}
